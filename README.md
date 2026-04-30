@@ -571,11 +571,11 @@ The frontend production build output is written to `frontend/dist/` and can be s
 
 The system automatically seeds a default administrator account on first startup. This is handled programmatically in `backend/src/index.ts` during the server bootstrap process. The password is hashed using bcrypt before being stored in the database.
 
-| Field    | Value          |
-|----------|----------------|
-| Email    | admin@system.com   |
-| Password | 12345678       |
-| Role     | admin          |
+| Field    | Value           |
+|----------|---------------- |
+| Email    | admin@system.com|
+| Password | 12345678        |
+| Role     | admin           |
 
 It is strongly recommended to change the default administrator password immediately after the first login in a production environment.
 

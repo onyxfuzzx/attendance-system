@@ -118,7 +118,7 @@ async function startServer() {
     console.log('[System] MS SQL Server database initialized');
     
     // Seed default admin user
-    const adminEmail = 'admin@csc.in';
+    const adminEmail = 'admin@system.com';
     const existingAdmin = await userRepository.findByEmail(adminEmail);
     if (!existingAdmin) {
       console.log('[System] Seeding default admin user...');

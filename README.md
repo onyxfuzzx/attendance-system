@@ -573,7 +573,7 @@ The system automatically seeds a default administrator account on first startup.
 
 | Field    | Value          |
 |----------|----------------|
-| Email    | admin@csc.in   |
+| Email    | admin@system.com   |
 | Password | 12345678       |
 | Role     | admin          |
 

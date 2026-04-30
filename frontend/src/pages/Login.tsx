@@ -15,7 +15,7 @@ import {
 export default function Login() {
   const { login } = useAuth();
   const navigate = useNavigate();
-  const [email, setEmail] = useState('admin@csc.in');
+  const [email, setEmail] = useState('admin@system.com');
   const [password, setPassword] = useState('12345678');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);

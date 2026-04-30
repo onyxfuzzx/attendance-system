@@ -171,6 +171,6 @@ GO
 -- Node.js backend (backend/src/index.ts) on its first startup.
 -- 
 -- Default Admin Credentials:
--- Email:    admin@csc.in
+-- Email:    admin@system.com
 -- Password: 12345678
 -- ==============================================================================

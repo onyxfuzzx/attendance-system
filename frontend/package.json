@@ -1,0 +1,32 @@
+{
+  "name": "attendance-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.8",
+    "@tanstack/react-query": "^5.100.6",
+    "axios": "^1.15.2",
+    "lucide-react": "^1.12.0",
+    "puppeteer": "^24.42.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
